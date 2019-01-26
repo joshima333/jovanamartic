@@ -1,0 +1,694 @@
+<html>
+<head>
+<title> Joshima_Welcome </title>
+<link rel="stylesheet" type="text/css" href="jquery.pagepiling.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Teko:400,700">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+<script type="text/javascript" src="jquery.pagepiling.min.js"></script>
+<script type="text/javascript">
+
+
+$(document).ready(function() {
+    $('#pagepiling').pagepiling({
+      menu: '#menu',
+      anchors: ['page1', 'page2', 'page3'],
+
+  });
+  });
+
+  </script>
+
+
+
+
+
+<style>
+html{
+cursor: crosshair;
+}
+
+
+
+
+#section1,
+#section2,
+#section3{
+  background-size: cover;
+}
+
+#section1{
+  background-color: black;
+
+}
+
+#section2{
+  background-color: black;
+}
+
+#section3{
+  background-color: white;
+}
+
+.section {
+  text-align: center;
+}
+
+.homepage, h1{
+  font-size: 60px;
+  font-family: 'Teko', sans-serif;
+  font-weight: lighter;
+  color: white;
+  margin:0;
+  padding:0;
+  text-decoration: none;
+}
+
+.projects, h1 {
+  font-size: 60px;
+  font-family: 'Teko', sans-serif;
+  font-weight: lighter;
+  color: white;
+  margin:0;
+  padding:0;
+  text-decoration: none;
+}
+
+.ultimo, h1 {
+  font-size: 60px;
+  font-family: 'Teko', sans-serif;
+  font-weight: lighter;
+  color: #000;
+  margin:0;
+  padding:0;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 35px;
+  font-family: 'Teko', sans-serif;
+  font-weight: lighter;
+  color: #fff;
+  margin:0;
+  padding:0;
+  text-decoration: underline;
+  animation-name: fadeOut;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+
+.testo {
+  font-family: 'Teko', sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  padding-top: 15%
+}
+
+#section1 h1{
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 30px;
+  color: #fff;
+
+}
+
+#section1 h2{
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 100px;
+  color: white;
+
+}
+
+#section2 h1{
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: -200px;
+  color: white;
+}
+
+#section3 h1{
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 30px;
+  color: black;
+}
+
+.latodx {
+  position: absolute;
+  height: 50px;
+  left: 93%;
+  top: 550px;
+}
+
+.centro {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  height: 620px;
+  width: auto;
+  animation-name: fadeOut;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.fadeOut {
+  animation-name: fadeOut;
+  animation-delay: infinite;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+a, h2 {
+  color: white;
+}
+
+
+.menu {
+  line-height: 40px;
+  font-family: 'Teko', sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+  color: #fff;
+  text-decoration: none;
+  color: white;
+  margin:0;
+  padding:0;
+  position: relative;
+  top:35px;
+
+}
+
+.num1{
+  text-decoration: none;
+}
+
+.num2 {
+  text-decoration: none;
+}
+
+.num3 {
+  text-decoration: none;
+}
+
+.num4 {
+  text-decoration: none;
+}
+
+.post1:hover .num1 {
+  cursor: pointer;
+  text-decoration: underline;
+  color: red;
+  animation-name: slideOnLeft1;
+  animation-duration: 1s;
+  animation-delay: .2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+
+.post1:hover .sxalto {
+  animation-name: slideInLeft1;
+  animation-duration: 1s;
+  animation-delay: .2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+
+.post2:hover .num2{
+  cursor: pointer;
+  text-decoration: underline;
+  color: red;
+  animation-name: slideOnRight2;
+  animation-duration: 1s;
+  animation-delay: .2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+
+.post2:hover .dxalto {
+  animation-name: slideInRight2;
+  animation-duration: 1s;
+  animation-delay: .2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+
+.post3:hover .num3 {
+  cursor: pointer;
+  text-decoration: underline;
+  color: red;
+  animation-name: slideOnLeft1;
+  animation-duration: 1s;
+  animation-delay: .2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+
+.post3:hover .sxbasso {
+  animation-name: slideInLeft1;
+  animation-duration: 1s;
+  animation-delay: .2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+
+
+.post4:hover .num4{
+  cursor: pointer;
+  text-decoration: underline;
+  color: red;
+  animation-name: slideOnRight2;
+  animation-duration: 1s;
+  animation-delay: .2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+
+.post4:hover .dxbasso {
+  animation-name: slideInRight2;
+  animation-duration: 1s;
+  animation-delay: .2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+
+
+@-webkit-keyframes slideOnLeft1 {
+  from {
+    -webkit-transform: translate3d(0, 0, 0) ;
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(-30%, 0, 0);
+    transform: translate3d(-30%, 0, 0);
+  }
+}
+
+@keyframes slideOnLeft1 {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(-30%, 0, 0);
+    transform: translate3d(-30%, 0, 0);
+  }
+}
+
+.slideOnLeft1 {
+  -webkit-animation-name: slideOnLeft1;
+  animation-name: slideOnLeft1;
+}
+
+@-webkit-keyframes slideOnRight2 {
+  from {
+    -webkit-transform: translate3d(0, 0, 0) ;
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(30%, 0, 0);
+    transform: translate3d(30%, 0, 0);
+  }
+}
+
+@keyframes slideOnRight2 {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(30%, 0, 0);
+    transform: translate3d(30%, 0, 0);
+  }
+}
+
+.slideOnRight2 {
+  -webkit-animation-name: slideOnRight2;
+  animation-name: slideOnRight2;
+}
+
+.sxalto {
+  position: absolute;
+  top: -125px;
+  left: -300px;
+  height: 350px;
+  width: auto;
+}
+
+@-webkit-keyframes slideInLeft1 {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(150%, 0, 0);
+    transform: translate3d(150%, 0, 0);
+  }
+}
+
+@keyframes slideInLeft1 {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(150%, 0, 0);
+    transform: translate3d(150%, 0, 0);
+  }
+}
+
+.slideInLeft1 {
+  -webkit-animation-name: slideInLeft1;
+  animation-name: slideInLeft1;
+}
+
+.dxalto {
+  position: absolute;
+  top: -230px;
+  right: -250px;
+  height: 350px;
+  width: auto;
+}
+
+@-webkit-keyframes slideInRight2 {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(-150%, 0, 0);
+    transform: translate3d(-150%, 0, 0);
+  }
+}
+
+@keyframes slideInRight2 {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(-150%, 0, 0);
+    transform: translate3d(-150%, 0, 0);
+  }
+}
+
+.slideInRight2 {
+  -webkit-animation-name: slideInRight2;
+  animation-name: slideInRight2;
+}
+
+.sxbasso {
+  position: absolute;
+  top: 75px;
+  left: -600px;
+  height: 280px;
+  width: auto;
+}
+
+.dxbasso {
+  position: absolute;
+  top: 90px;
+  right: -750px;
+  height: 280px;
+  width: auto;
+}
+
+/* section 3 --------------------------------------- */
+
+.icone {
+  outline: none;
+  font-size: 20px;
+  font-family: 'Teko', sans-serif;
+  font-weight: lighter;
+  color: #fff;
+  text-decoration: none;
+  }
+
+#logo1 {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: auto;
+  max-height: 90px;
+  transition: 0.5s;
+}
+
+#logo1:hover {
+  animation-name: pulsante;
+  animation-duration:.1s;
+  animation-timing-function: ease-in-out;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+
+#logo2 {
+  position: absolute;
+  top: 50%;
+  left: 36%;
+  height: auto;
+  width: auto;
+  max-height: 90px;
+  transition: 0.5s;
+}
+
+#logo2:hover {
+  animation-name: pulsante;
+  animation-duration: .1s;
+  animation-timing-function: ease-in-out;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+
+#logo3 {
+  position: absolute;
+  top: 50%;
+  left: 58%;
+  height: auto;
+  width: auto;
+  max-height: 90px;
+  transition: 0.5s;
+}
+
+#logo3:hover {
+  animation-name: pulsante;
+  animation-duration: .1s;
+  animation-timing-function: ease-in-out;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+
+#logo4 {
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  height: auto;
+  width: auto;
+  max-height: 90px;
+  transition: 0.5s;
+}
+
+#logo4:hover {
+  animation-name: pulsante;
+  animation-duration: .1s;
+  animation-timing-function: ease-in-out;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes pulsante {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+
+  to {
+    -webkit-transform: scale3d(1.5, 1.5, 1.5);
+    transform: scale3d(1.5, 1.5, 1.5);
+  }
+}
+
+@keyframes pulsante {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+
+  to {
+    -webkit-transform: scale3d(1.5,1.5, 1.5);
+    transform: scale3d(1.5, 1.5,1.5);
+  }
+}
+
+.pulsante {
+  -webkit-animation-name: pulsante;
+  animation-name: pulsante;
+}
+
+</style>
+
+</head>
+
+<body>
+
+	<div id="pagepiling">
+	   <div class="section" id="section1">
+        <img src="foto/porta.jpg" class="centro">
+        <img src="gif/arrow-down.gif" class="latodx">
+
+
+	    	<div class="homepage">
+          <h1>Welcome</h1>
+        </div>
+
+        <br>
+
+        <h2> <a href="me.html">
+           who am I ? </a>
+         </h2>
+	   </div>
+
+
+
+
+	   <div class="section" id="section2">
+
+        <img src="gif/arrow-down.gif" class="latodx">
+
+        <div class="menu">
+         <div class="post1">
+           <img src="foto/bianconero.jpg" class="sxalto">
+           <div class="num1"> <a href="photography.html#page1">photography</a> </div>
+         </div>
+
+        <div class="post2">
+          <img src="foto/PRJ_02_02.jpg" class="dxalto">
+          <div class="num2"> <a href="graphicdesign.html#page1"> graphic design </a> </div>
+        </div>
+
+          <div class="post3">
+            <img src="foto/z_236.jpg" class="sxbasso">
+          <div class="num3"> <a href="editorial.html#page1"> editorial </a> </div>
+        </div>
+
+          <div class="post4">
+            <video autoplay loop muted class="dxbasso">
+            <source src="video/stopmotioncompresso_1_2.mp4" type="video/mp4">
+            <source src="video/stopmotioncompresso_1_2.webm" type="video/webm">
+           </video>
+          <div class="num4"> <a href="video.html#page1"> video </a> </div>
+        </div>
+
+        <div class="projects"> <h1>
+        Projects </h1>
+      </div>
+
+      </div>
+
+	  </div>
+
+
+	    <div class="section" id="section3">
+
+	    		       <div class="ultimo">
+                <h1> Contact me </h1>
+              </div>
+
+
+
+                 <div class="icone" >
+                   <a href="https://www.instagram.com/joshiima/" alt="instagram">
+                 <img src="foto/instagram.png" id="logo1">
+               </a>
+
+
+
+
+                   <a href="https://www.facebook.com/jovana.notsuperman" alt="facebook">
+                 <img src="foto/facebook.png" id="logo2"></a>
+
+
+
+
+                    <a href="https://www.behance.net/jovanamart5cfb" alt="behance">
+                 <img src="foto/behance.png" id="logo3"></a>
+
+
+
+
+                    <a href="mailto:jovana.martic@hotmail.it" alt="email">
+                 <img src="foto/email.png" id="logo4"> </a>
+
+                 </div>
+
+     </div>
+
+</body>
+
+</html>

@@ -1,0 +1,343 @@
+<html>
+<head>
+<title> Joshima_photography </title>
+<link rel="stylesheet" type="text/css" href="jquery.pagepiling.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Teko:400,700">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+<script type="text/javascript" src="jquery.pagepiling.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+      $('#pagepiling').pagepiling({
+
+        navigation: {
+          'position': 'right',
+        },
+    });
+    });
+  </script>
+
+<style>
+
+
+html{
+cursor: crosshair;
+}
+
+
+#section1,
+#section2,
+#section3,
+#section4
+{
+  background-size: cover;
+  overflow: hidden;
+}
+
+#section1{
+  background-color: black;
+}
+
+#section2{
+  background-color: black;
+}
+
+#section3{
+  background-color: black;
+}
+
+#section4{
+  background-color: black;
+}
+
+.section {
+  text-align: center;
+}
+
+h1{
+  font-size: 60px;
+  font-family: 'Teko', sans-serif;
+  font-weight: lighter;
+  color: #000;
+  position: absolute;
+  margin:0;
+  padding:0;
+  text-decoration: none;
+}
+
+.pulsa {
+  font-size: 35px;
+  font-family: 'Teko', sans-serif;
+  font-weight: lighter;
+  color: #000;
+  margin:0;
+  padding:0;
+  text-decoration: none;
+  animation-name: pulse;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+
+#section1 h1{
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: -300px;
+  color: #fff;
+}
+
+#section2 h1{
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top:  -300px;
+  color: #fff;
+}
+
+#section3 h1{
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top:  -300px;
+  color: #fff;
+}
+
+.latodx {
+  position: absolute;
+  height: 50px;
+  left: 93%;
+  top: 550px;
+}
+
+#freccia {
+  display: block;
+  position: fixed;
+  height: 70px;
+  left:35px;
+  top: 0px;
+  z-index: 100;
+  transform: scale(0.5);
+}
+
+
+.soprasx {
+  position: absolute;
+  height: 70px;
+  left:35px;
+  top: 30px;
+  animation-name: shake2;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes shake2 {
+  from,
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+}
+
+.shake2 {
+  -webkit-animation-name: shake2;
+  animation-name: shake2;
+}
+
+.foto01 {
+  width: 1200px;
+  height: 800px;
+  position: absolute;
+  top:0px;
+  left:100px;
+}
+
+.foto02 {
+  width: 1200px;
+  height: 800px;
+  position: absolute;
+  top:0px;
+  left:0px;
+}
+
+.foto03 {
+  width: 1000px;
+  height: 600px;
+  position: absolute;
+  top:30px;
+  left:160px;
+}
+
+h2 {
+  font-family: 'Teko', sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+  position: relative;
+  color:white;
+}
+
+
+
+</style>
+
+</head>
+
+<body>
+
+
+	<div id="pagepiling">
+	    <div class="section" id="section1">
+
+        <div id="freccia">
+          <a href="joshima.html">
+            <img src="gif/icon-back-white.png" class="soprasx">
+          </a>
+        </div>
+
+
+          <div class="foto">
+          <img src="foto/z_08.jpg" class="foto01" id="versosx">
+
+
+          </div>
+        <img src="gif/arrow-down.gif" class="latodx">
+
+
+        <div id="#editorial" class="pulsa">
+            <h1>Editorial</h1>
+        </div>
+
+	    </div>
+
+
+
+
+
+
+
+
+
+
+	    <div class="section" id="section2">
+
+        <div id="freccia">
+          <a href="joshima.html">
+            <img src="gif/icon-back-white.png" class="soprasx">
+          </a>
+        </div>
+
+              <div class="foto">
+              <img src="foto/z_138.jpg" class="foto02" id="versosx">
+            </div>
+
+          <img src="gif/arrow-down.gif" class="latodx">
+
+          <div id="#editorial" class="pulsa">
+            <h1>Editorial</h1>
+          </div>
+
+	    </div>
+
+
+
+
+
+
+
+
+      <div class="section" id="section3">
+
+        <div id="freccia">
+          <a href="joshima.html">
+            <img src="gif/icon-back-black.png" class="soprasx">
+          </a>
+        </div>
+
+                  <div class="foto">
+                    <img src="foto/z_236.jpg" class="foto03" id="versosx">
+                  </div>
+
+
+             <img src="gif/arrow-down.gif" class="latodx">
+
+             <div id="#editorial" class="pulsa">
+                <h1>Editorial</h1>
+             </div>
+
+        </div>
+
+
+
+
+
+
+
+
+        <div class="section" id="section4">
+
+          <div id="freccia">
+            <a href="joshima.html">
+              <img src="gif/icon-back-black.png" class="soprasx">
+            </a>
+          </div>
+
+                <div class="foto">
+                  <img src="foto/GIF_MARTIC.gif" class="foto04" id="versosx">
+                </div>
+
+            <img src="gif/arrow-down.gif" class="latodx">
+
+
+        </div>
+
+
+
+
+	</div>
+
+</body>
+
+</html>

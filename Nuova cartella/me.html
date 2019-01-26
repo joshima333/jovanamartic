@@ -1,0 +1,341 @@
+<html>
+<head>
+<title> Joshima_Welcome </title>
+<link rel="stylesheet" type="text/css" href="jquery.pagepiling.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Teko:400,700">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+<script type="text/javascript" src="jquery.pagepiling.min.js"></script>
+<script type="text/javascript">
+var deleteLog = false;
+
+$(document).ready(function() {
+    $('#pagepiling').pagepiling({
+      menu: '#menu',
+      anchors: ['page1', 'page2', 'page3'],
+
+  });
+  });
+
+  </script>
+<script>
+$(document).ready(function(){
+$("#cute").click(function(){
+$("#colleg").removeClass("nascondi");
+$("#colleg").addClass("animazione");
+$("#cute").addClass("nascondi")
+});
+});
+</script>
+
+
+
+<style>
+html{
+cursor: crosshair;
+}
+
+
+#section1,
+#section2,
+#section3{
+  background-size: cover;
+}
+
+#section1{
+  background-color: black;
+
+}
+
+#section2{
+  background-image: url(foto/5.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#section3{
+  background-color: black;
+
+}
+
+.section {
+  text-align: center;
+}
+
+h1{
+  font-size: 60px;
+  font-family: 'Teko', sans-serif;
+  font-weight: bold;
+  color: #fff;
+  position: absolute;
+  margin:0;
+  padding:0;
+  text-decoration: none;
+}
+
+.scossa {
+  font-size: 35px;
+  font-family: 'Teko', sans-serif;
+  font-weight: lighter;
+  color: #fff;
+  margin:0;
+  padding:0;
+  text-decoration: none;
+  animation-name: shake;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+
+@keyframes shake {
+  from,
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+}
+
+.shake {
+  -webkit-animation-name: shake;
+  animation-name: shake;
+}
+
+.testo1 {
+  font-family: 'Teko', sans-serif;
+  font-size: 38px;
+  font-weight: normal;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 265px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.testo2 {
+  display: block;
+  font-family: 'Teko', sans-serif;
+  font-size: 38px;
+  font-weight: normal;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 370px;
+  margin: 0 auto;
+  color: #fff;
+  line-height: 40px;
+}
+
+.testo3 {
+  font-family: 'Teko', sans-serif;
+  font-size: 38px;
+  font-weight: normal;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 200px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+#section1 h1{
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: -270px;
+  color: #fff;
+}
+
+.latodx {
+  position: absolute;
+  height: 50px;
+  left: 93%;
+  top: 550px;
+}
+
+#cute:hover{
+  text-decoration: underline;
+  color: red;
+  cursor: pointer;
+}
+
+#colleg {
+  font-style: normal;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: lighter;
+  color: red;
+}
+
+.nascondi {
+  display: none;
+}
+
+.appare {
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0}
+  100% {opacity: 1;}
+}
+
+#freccia {
+  display: block;
+  position: fixed;
+  height: 70px;
+  left:35px;
+  top: 0px;
+  z-index: 100;
+  transform: scale(0.5);
+}
+
+#freccia2 {
+  display: block;
+  position: fixed;
+  height: 70px;
+  left:35px;
+  top: 0px;
+  z-index: 100;
+  transform: scale(0.5);
+}
+
+#freccia3 {
+  display: block;
+  position: fixed;
+  height: 70px;
+  left:35px;
+  top: 0px;
+  z-index: 100;
+  transform: scale(0.5);
+}
+
+.soprasx {
+  position: absolute;
+  height: 70px;
+  left:35px;
+  top: 30px;
+  animation-name: shake2;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes shake2 {
+  from,
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+}
+
+.shake2 {
+  -webkit-animation-name: shake2;
+  animation-name: shake2;
+}
+
+</style>
+
+</head>
+
+<body>
+
+	<div id="pagepiling">
+	    <div class="section" id="section1">
+        <img src="gif/arrow-down.gif" class="latodx">
+        <div id="freccia">
+          <a href="joshima.html">
+            <img src="gif/icon-back-white.png" class="soprasx">
+          </a>
+        </div>
+
+               <div id="#hello" class="scossa">
+                  <h1>Oh, hello.</h1>
+              </div>
+
+               <div class="testo1">
+                  <p> I'm Jovana Martic.
+                  <br>
+                  22 years old.</p>
+                </div>
+
+	    </div>
+
+	    <div class="section" id="section2">
+        <img src="gif/arrow-down.gif" class="latodx">
+        <div id="freccia2">
+          <a href="joshima.html">
+            <img src="gif/icon-back-white.png" class="soprasx">
+          </a>
+        </div>
+
+              <div class="testo2">
+	    	         <p>
+                   Communication design student at Polimi</p>
+              <div id="cute">I'm cute...sometimes.</div>
+
+            <p id="colleg" class="nascondi">
+                    I love music and art.
+                    <br>
+                    I'm sociable, but I love solitude.
+                    <br>When I grow up I want to be an art director.
+              </div>
+
+	    </div>
+
+      <div class="section" id="section3">
+        <div id="freccia3">
+          <a href="joshima.html">
+            <img src="gif/icon-back-white.png" class="soprasx">
+          </a>
+        </div>
+
+             <div class="testo3">
+	    	         	<p>Born in Belgrade (Serbia)
+                    <br> Grown in Perugia (Italy)
+                  <br>Based in Milan.</p>
+             </div>
+
+	    </div>
+
+	</div>
+
+</body>
+
+</html>
